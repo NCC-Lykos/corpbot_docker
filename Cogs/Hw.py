@@ -692,7 +692,7 @@ class Hw(commands.Cog):
 				buildList = []
 			if not len(buildList):
 				# No parts!
-				msg = ':facepalm: *{}* has no builds on file!  They can add some with the `{}newhw` command.'.format(DisplayName.name(memFromName), ctx.prefix)
+				msg = ':facepalm: *{}* has no builds on file!  *{}* please stop being lazy and fillout your hardware information. You can add some with the `{}newhw` command.'.format(DisplayName.name(memFromName), ctx.prefix)
 				await ctx.channel.send(msg)
 				return
 			
