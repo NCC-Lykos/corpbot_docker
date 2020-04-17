@@ -54,7 +54,6 @@ class TempRole(commands.Cog):
 			# Doesn't exist
 			return
 		
-		# Here we have a member, role, and end time - apply them!
 		user_roles = self.settings.getUserStat(member, server, "TempRoles")
 		# Check and see if we're overriding a current time
 		temp_role = {}
