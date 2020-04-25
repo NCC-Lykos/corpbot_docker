@@ -1244,7 +1244,7 @@ class Bot(commands.Cog):
 	@commands.command(pass_context=True)
 	async def source(self, ctx):
 		"""Link the github source."""
-		source = "https://github.com/corpnewt/CorpBot.py"
+		source = "https://github.com/Pavo-IM/corpbot_docker"
 		msg = '**My insides are located at:**\n\n{}'.format(source)
 		await ctx.channel.send(msg)
 
